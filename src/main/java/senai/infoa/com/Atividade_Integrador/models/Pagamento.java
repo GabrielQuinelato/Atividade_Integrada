@@ -1,10 +1,11 @@
-package main.java.senai.infoa.com.Atividade_Integrador.models;
+package senai.infoa.com.Atividade_Integrador.models;
 
-import main.java.senai.infoa.com.Atividade_Integradora.models.Column;
-import main.java.senai.infoa.com.Atividade_Integradora.models.Entity;
-import main.java.senai.infoa.com.Atividade_Integradora.models.GeneratedValue;
-import main.java.senai.infoa.com.Atividade_Integradora.models.Id;
-import main.java.senai.infoa.com.Atividade_Integradora.models.Table;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
 @Table(name="pagamento")

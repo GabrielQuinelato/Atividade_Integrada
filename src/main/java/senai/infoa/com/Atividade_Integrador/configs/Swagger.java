@@ -1,4 +1,4 @@
-package main.java.senai.infoa.com.Atividade_Integrador.configs;
+package senai.infoa.com.Atividade_Integrador.configs;
 
 import org.springframework.context.annotation.Configuration;
 

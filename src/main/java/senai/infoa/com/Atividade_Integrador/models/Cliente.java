@@ -1,4 +1,11 @@
-package main.java.senai.infoa.com.Atividade_Integrador.models;
+package senai.infoa.com.Atividade_Integrador.models;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
 @Table(name="cliente")
@@ -24,9 +31,9 @@ public class Cliente {
     @Column(name="senha")
     private Integer senha;
 
-    public Clientes() {}
+    public Cliente() {}
 
-    public Clientes(Integer id, String nome, String email, Integer telefone, String endereco, Integer senha) {
+    public Cliente(Integer id, String nome, String email, Integer telefone, String endereco, Integer senha) {
         this.id = id;
         this.nome = nome;
         this.email = email;
